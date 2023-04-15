@@ -2,7 +2,7 @@ function highlight() {
     //Write your code here
 
     const k = document.querySelectorAll("strong");
-	k.forEach((elem) =>{
+	k.forEach((elem) => {
 		elem.style.color = "green";
 	})
 }
